@@ -1,7 +1,8 @@
 
-Le site contiendra 5 pages:
--une page Accueil contenant un slider des dernières annonces, ainsi qu'une description de ce que fait l'assocaiation.
--une page Programme qui contient la date des évènements 
--une page Memmbre pour la création ou la connexion dans son compte d'étudiant
+Le site contiendra 5 pages, chaque page aura en haut le même fichier header avec le menu de navigation et le logo, et le fichier footer qui lui sera similaire au niveau du contenu html.
+Les 5 pages sont les suivantes:
+-une page Accueil contenant un slider des dernières annonces, ainsi qu'une description de l'assocaiation, et une partie pour les moments forts des évènements passé contenant une vidéo et un slider d'images.
+-une page Programme qui contient le calendrier des évènements
+-une page Membre pour la création ou la connexion dans son compte d'étudiant
 -une page Forum pour l'échange entre étudiants à propos des évènements passés.
 -une page Contact contenant un formulaire de contact
