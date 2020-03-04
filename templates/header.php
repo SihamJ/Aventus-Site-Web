@@ -1,10 +1,3 @@
-<html>
-<head>
-<meta charset="UTF-8" />
-<title>Accueil</title>
-</head>
-
-<body>
 <header>
 <img src="assets/logo.png" id="logo" alt="logo" width="100"/>
 <nav>
@@ -17,6 +10,3 @@
 </ul>
 </nav>
 </header>
-
-</body>
-</html>

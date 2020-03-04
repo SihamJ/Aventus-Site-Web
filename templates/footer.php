@@ -1,10 +1,3 @@
-<html>
-<head>
-<meta charset="UTF-8" />
-</head>
-
-<body>
-
 <footer>
 <img src="assets/logo.png" alt="logo" width="80"/>
 <nav>
@@ -17,6 +10,3 @@
 </ul>
 </nav>
 </footer>
-
-</body>
-</html>
