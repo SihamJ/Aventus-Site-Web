@@ -11,16 +11,17 @@
 	include 'templates/header.php';
 ?>
 <div class="banner">
-<div class="bannercontent">
-<h1>Bienvenue sur l'ASE</h1>
-<h2>Nous proposons des évènements aux étudiants blablablablablabla</h3>
+<div class="slogan">
+
+<h1>My Awesome Slogan</h1>
 </div>
-</div>
-</div>
-<div class="container">
 <?php
 	include 'templates/slider1.php';
 ?>
+</div>
+</div>
+<div class="container">
+
 <article>
 <h2> Qui Sommes Nous ? </h2>
 <p class="about"><img src="assets/assoc.jpg" class="img_assoc"/>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers.
