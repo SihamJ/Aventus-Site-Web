@@ -1,7 +1,7 @@
-<section class="slider">
-<img src="event1.pg" alr="event" style="margin:auto;display:flex"/>
-<img src="event2.png" alr="event" style="margin:auto;display:flex"/>
-<img src="event3.png" alr="event" style="margin:auto;display:flex"/>
-<img src="event4.png" alr="event" style="margin:auto;display:flex"/>
-<img src="event5.png" alr="event" style="margin:auto;display:flex"/>
+<section id="slider">
+<img src="assets/event1.jpg" alt="event" style="margin:auto;display:flex"/>
+<img src="assets/event2.jpg" alt="event" style="margin:auto;display:flex"/>
+<img src="assets/event3.jpg" alt="event" style="margin:auto;display:flex"/>
+<img src="assets/event4.jpg" alt="event" style="margin:auto;display:flex"/>
+<img src="assets/event5.jpg" alt="event" style="margin:auto;display:flex"/>
 </section>
