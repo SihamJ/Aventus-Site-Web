@@ -1,5 +1,7 @@
 <html>
 <head>
+<link href="css/footer.css" rel="stylesheet"/>
+<link href="css/header.css" rel="stylesheet"/>
 <meta charset="UTF-8" />
 <title>Programme</title>
 </head>
