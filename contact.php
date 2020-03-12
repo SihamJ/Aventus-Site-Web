@@ -13,10 +13,10 @@
 ?>
 
 <div class="container">
-
+<section class="formulaire">
 <h1>N'hésitez pas à nous contacter pour plus d'informations</h1>
 
-<section class="formulaire">
+
 
 <form id="myform" class="form">
 <input type="text" class="element 1" placeholder="Nom"/>
