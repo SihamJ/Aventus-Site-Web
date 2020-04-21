@@ -1,60 +1,11 @@
 footer{
-height:70px;
-background-color:rgb(50,50,50);
-color:white;
-bottom:0px;
-font-size:12px;
-
+  position:relative;
+  bottom:0px;
+  margin-top: 30px;
 }
 
-footer img{
-width:10%;
+.footer-banner{
+  color:white;
+  line-height:50px;
+  background-color: rgb(5,5,30);
 }
-
-footer nav ul
-{
-list-style-type:none;
-display:flex;
-}
-
-footer nav li
-{
-margin-right: 55px;
-}
-
-footer nav a
-{
-color:white;
-text-decoration:none;
-font-family:verdana;
-font-size:1.3em;
-}
-
-footer nav a:hover{
-color:rgb(20,0,60);
-opacity:0.7;
-}
-
-#footer{
-
-display:flex;
-height:70px;
-justify-content:center;
-margin-top:240px;
-}
-
-
-footer .element{
-margin:auto;
-
-}
-
-footer .element:nth-child(1){
-margin-left:50px;
-flex:1;
-}
-
-footer .element:nth-child(2){
-flex:3;
-}
-

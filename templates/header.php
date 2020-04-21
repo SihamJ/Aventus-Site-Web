@@ -1,15 +1,17 @@
-<header>
-<nav id="header">
-<div class="element 1"><a href="index.php"><img src="assets/logo.svg" id="logo" alt="logo" width="100"/></a></div>
-<div class=element 2">
-<ul class="nav">
-<li><a href="index.php">Accueil</a></li>
-<li><a href="programmes.php">Programmes</a></li>
-<li><a href="membre.php">Membre</a></li>
-<li><a href="forum.php">Forum</a></li>
-<li><a href="contact.php">Contact</a></li>
-</ul>
+<header class="row">
+
+<div class="col-md-2" id="logo">
+  <a href="/Prog Web/index.php"><img src="/Prog Web/assets/logo.png" alt="logo" class="img-fluid logo"/></a>
 </div>
+
+<nav class="col-md-9">
+<ul class="list-unstyled list-inline">
+<li class="list-inline-item"><a href="/Prog Web/index.php">Accueil</a></li>
+<li class="list-inline-item"><a href="/Prog Web/index.php/#programme">Programmes</a></li>
+<li class="list-inline-item"><a href="/Prog Web/membre.php">Membre</a></li>
+<li class="list-inline-item"><a href="/Prog Web/forum.php">Forum</a></li>
+<li class="list-inline-item"><a href="/Prog Web/contact.php">Contact</a></li>
+</ul>
 </nav>
 
 </header>
