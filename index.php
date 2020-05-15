@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,27 +8,35 @@
 <link href="/Prog Web/css/header.css" rel="stylesheet"/>
 <link href="/Prog Web/bootstrap/bootstrap.css" rel="stylesheet"/>
 <title>Accueil</title>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <?php
+    include '/Applications/MAMP/htdocs/Prog Web/templates/header.php';
+
+  ?>
+
 	<div class="container-fluid">
 
-    <?php
-	    include 'templates/header.php';
-    ?>
 
 <section class="row banner py-5">
-	<div class="col-md-6">
+	<div class="col-lg-6 d-none d-lg-flex">
 			<div class="row">
-			<h1 class="offset-md-3 col-md-8 py-5" style="font-size:5.5em;color:rgb(10,0,60);">Let The</br> Adventure</br> Begin</h1>
-			<a class="offset-md-4 col-md-3 btn btn-primary btn-lg py-2" href="/Prog Web/membre.php" role="buttons">
-			TIRE !
+			<h1 class="offset-md-3 col-md-8 py-5" style="font-size:5.5em;color:rgb(10,0,60);"><?php echo translate('MainTitle'); ?></h1>
+			<a class="offset-md-4 col-md-6 btn btn-primary btn-lg"  href="/Prog Web/signup.php" role="buttons" style="height:70px">
+			<?php echo translate('join');?>
 			</a>
 		</div>
 	</div>
-<div class="col-md-6 ">
+<div class="col-lg-6  col-md-10">
 		<img src="/Prog Web/assets/bg.png" alt="" class="img-fluid"/>
-	</div>
+</div>
+
+
+
 </section>
 
 <div id="programme">
@@ -41,29 +50,20 @@
 	<div class="offset-md-3 col-md-6">
 		<div class="row">
 	 <div class="col-md-12 h1" ><h1>AVENTUS</h1></div>
-	 <article class="col-md-12"><p><b style="font-size:1.2em">Qui Sommes Nous ?</b>  We are a Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs,
-				broken CSS support, and abandoned browsers.
-				We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C,
-				WASP, and the major browser creators.
-				The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn
-				 to use the time-honored techniques in new and invigorating fashion. Become one with the web. Littering a dark and dreary road
-				 lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers.
-				We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C, WASP,
-				and the major browser creators.
+	 <article class="col-md-12"><p><b style="font-size:1.2em"><?php echo translate('apropos');?>
 			</p>
     </article>
 	</div>
 	</div>
 </article>
-<article class="row text-center py-5">
+<article class="row text-center py-5 d-none d-md-flex">
 	<section class="offset-1 col-md-6 ">
 		<iframe width="670" height="415" src="https://www.youtube.com/embed/TOuF7ZbcCUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</section>
 	<div class="col-md-5 py-5 ">
 		<div class="row">
-	 <div class="col-md-12 h1 "><h1>A Quoi Vous Attendre</h1></div>
-	 <article class="offset-md-1 col-md-10 "><p><b style="font-size:1.2em">Découvrer </b>  We are a Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs,
-				broken CSS support, and abandoned browsers.
+	 <div class="col-md-12 h1 "><h1><?php echo translate('attente');?></h1></div>
+	 <article class="offset-md-1 col-md-10 "><p><?php echo translate('attente-text');?>
 
 			</p>
     </article>
@@ -71,11 +71,12 @@
 	</div>
 
 </article>
+
+
+
 </div>
-
 <?php
-	include 'templates/footer.php';
+	include '/Applications/MAMP/htdocs/Prog Web/templates/footer.php';
 ?>
-
 </body>
 </html>

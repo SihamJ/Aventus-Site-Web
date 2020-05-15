@@ -41,6 +41,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Futura"; src: url("//db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.eot");
+  src: url("//db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.woff") format("woff"), url("//db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e8c6a63541de0a4211a9358cbe74690f.svg#Futura") format("svg");
+ }
+
 html {
   font-family: sans-serif;
   line-height: 1.15;

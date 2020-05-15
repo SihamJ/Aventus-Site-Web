@@ -1,5 +1,4 @@
 <script>
-var a;
 function openwindow(src){
    window.open(src);
 }
@@ -9,7 +8,7 @@ function openwindow(src){
     <div class="container">
 
       <section class="row ">
-      <h1 class="col-md-6 text-uppercase " style="margin-bottom:50px">Prochainement</h1>
+      <h1 class="col-md-6 text-uppercase " style="margin-bottom:50px"><?php echo translate('prochainement');?></h1>
       </section>
 
       <div class="row">
@@ -19,7 +18,7 @@ function openwindow(src){
               <image width="100%" height="225" xlink:href="/Prog Web/assets/event1.jpg" />
             </svg>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><?php echo 'text'; ?></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary" onclick="a='https://www.facebook.com/events/222344735470320/';openwindow(a)">En Savoir Plus</button>

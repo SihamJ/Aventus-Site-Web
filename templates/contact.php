@@ -3,19 +3,19 @@
 
 <section class="mb-4" >
 
- <h2 class="h1-responsive font-weight-bold text-center my-4">Contactez-Nous</h2>
+ <h2 class="h1-responsive font-weight-bold text-center my-4"><?php echo translate('contact-us');?></h2>
 
- <p class="text-center w-responsive mx-auto mb-5">Nous reviendrons vers vous dans la journée.</p>
+ <p class="text-center w-responsive mx-auto mb-5"><?php echo translate('contact-text');?></p>
 
  <div class="row">
 
      <div class="col-md-9 mb-md-0 mb-5">
-         <form id="contactform" name="contact-form" action="/Prog Web/contact.php" method="POST">
+         <form id="contactform" name="contact-form" action="/Prog Web/templates/formulaire.php" method="POST">
            <div class="row">
                  <div class="col-md-6">
                      <div class="md-form mb-0">
                          <input type="text" id="name" name="name" class="form-control">
-                         <label for="name" class="">Nom</label>
+                         <label for="name" class=""><?php echo translate('nom');?></label>
                      </div>
                  </div>
 
@@ -30,8 +30,8 @@
              <div class="row">
                  <div class="col-md-12">
                      <div class="md-form mb-0">
-                         <input type="text" id="subject" name="subject" class="form-control">
-                         <label for="subject" class="">Sujet</label>
+                         <input type="text" id="sujet" name="sujet" class="form-control">
+                         <label for="sujet" class=""><?php echo translate('sujet');?></label>
                      </div>
                  </div>
              </div>
@@ -40,7 +40,7 @@
                <div class="col-md-12">
                      <div class="md-form">
                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                         <label for="message">Votre message</label>
+                         <label for="message"><?php echo translate('msg');?></label>
                      </div>
                  </div>
              </div>
@@ -48,7 +48,7 @@
          </form>
 
          <div class="text-center text-md-left">
-             <button id="send" onclick="verifEmail();" class="btn btn-primary">Envoyer</button>
+             <button id="send" onclick="verifEmail();" class="btn btn-primary"><?php echo translate('envoyer');?></button>
              <label for="send" id="labelButton"></label>
          </div>
 

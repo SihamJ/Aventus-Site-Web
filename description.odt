@@ -1,8 +1,20 @@
 
-Le site contiendra 5 pages, chaque page aura en haut le même fichier header avec le menu de navigation et le logo, et le fichier footer qui lui sera similaire au niveau du contenu html.
+Le site contiendra 7 pages pour les membres dont 5 accessibles pour les non inscrits, chaque page aura en haut le même fichier header avec le menu de navigation et le logo, et le fichier footer qui lui sera similaire au niveau du contenu html.
 Les 5 pages sont les suivantes:
--une page Accueil contenant un slider des dernières annonces, ainsi qu'une description de l'assocaiation, et une partie pour les moments forts des évènements passé contenant une vidéo et un slider d'images.
--une page Programme qui contient le calendrier des évènements
--une page Membre pour la création ou la connexion dans son compte d'étudiant
--une page Forum pour l'échange entre étudiants à propos des évènements passés.
+-une page Accueil contenant les évènements, une description de l'association, et une vidéo des évènements passées.
+-deux pages connexion et inscription qui apparaissent dans le header selon que la session soit ouverte ou pas, si elle est ouverte, c'est le pseudo et la photo de profil qui apparaissent avec un menu déroulant en cliquant dessus.
+-une page Forum pour l'échange entre étudiants à propos des évènements passés.(Je n'ai malheureusement pas eu le temps de coder les pages du forum)
 -une page Contact contenant un formulaire de contact
+-une page tableau de bord pour voir les évènements auquel on est inscrit.(pas encore faite)
+-une page compte pour gérer son compte. (pas encore faite)
+-une page de chat entre les membres
+
+
+Une session est déjà créée dans la ddb:
+pseudo : admin 
+mot de passe : admin
+
+La langue par défaut est le français, pour change de langue vers l'anglais, ajouter: 
+" ?lg=en " à la fin de l'url. 
+
+Veuillez trouver la base de données aventus.sql dans le dossier database.
