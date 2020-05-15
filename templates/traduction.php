@@ -13,6 +13,7 @@ $fr = array (
     'accueil' => 'Accueil',
     'events' => 'Evènements',
     'signin' => 'Se Connecter',
+    'signinup' => 'Inscription',
     'signup' => 'S\'inscrire',
     'prochainement' => 'Prochainement',
     'attente' => 'A Quoi Vous Attendre',
@@ -30,7 +31,19 @@ $fr = array (
     'bord' => 'Tableau de Bord',
     'compte' => 'Mon Compte',
     'dcnx' => 'Déconnexion',
-    'chat' => 'Discuter avec les membres'
+    'chat' => 'Discuter avec les membres',
+    'espace membre' => 'Espace Membre',
+    'pass' => 'Mot de Passe',
+    'ressaisir' => 'Ressaisir votre mot de passe',
+    'partage' => 'Partage d\'expériences',
+    'espace' => 'Espace de partage avec les membres de l\'Aventus.',
+    'toforum' => 'Vers le Forum',
+    'issues' => 'Problèmes Techniques',
+    'issuestext' => 'Veuillez déposer votre demande ici pour tout problème technique sur le site.',
+    'used' => 'Pseudo déjà utilisé.',
+    'autoco' => 'Connexion automatique',
+    'incorrectid' => 'Pseudo ou mot de passe incorrecte',
+    'maintenance' => 'Page en cours de maintenance'
 );
 $en = array( 'MainTitle' => 'Let the </br> Adventure</br> Begin!',
 'join' => 'Join Us!',
@@ -45,7 +58,8 @@ $en = array( 'MainTitle' => 'Let the </br> Adventure</br> Begin!',
      and the major browser creators.',
      'accueil' => 'Home',
      'events' => 'Events',
-     'signin' => 'Sign In',
+     'signin' => 'Log In',
+     'signinup' => 'Create Account',
      'signup' => 'Sign Up',
      'prochainement' => 'Coming Soon',
      'attente' => 'And much more ! ..',
@@ -61,19 +75,46 @@ $en = array( 'MainTitle' => 'Let the </br> Adventure</br> Begin!',
      'contact-text' => 'You will hear from us shortly.',
      'bord' => 'Bord',
      'compte' => 'My Account',
-     'dcnx' => 'Sign Out',
-     'chat' => 'Chat with members'
-);
+     'dcnx' => 'Log Out',
+     'chat' => 'Chat with members',
+     'espace membre' => 'For Members Only',
+     'pass' => 'Password',
+     'ressaisir' => 'Retype your password',
+     'maintenance' => 'Page under maintenance',
+     'partage' => 'For Sharing',
+     'espace' => 'Space for sharing experiences with other members of Aventus',
+     'toforum'=>'To Forum',
+     'issues'=>'Technical Issues',
+     'issuestext' =>'Please leave your request in this forum regarding any technical issues with the website.',
+     'used' => 'Pseudo already taken.',
+     'autoco' => 'Auto Login',
+     'incorrectid' => 'Incorrect Pseudo or Password'
+   );
 
 function translate($cle){
-  if (isset($_GET['langue'])){
+  global $fr;
+  global $en;
+  if(!isset($_SESSION['langue'])){
+    $_SESSION['langue']='fr';
+    return $fr[$cle];
+  }
+  else if (isset($_GET['langue']) && $_SESSION['langue']!=$_GET['langue']){
     if($_GET['langue']=='en'){
-      global $en;
+      $_SESSION['langue']='en';
       return $en[$cle];
     }
+    else {
+      $_SESSION['langue']='fr';
+      return $fr[$cle];
     }
-    global $fr;
-  return $fr[$cle];
+  }
+  else{
+    if($_SESSION['langue']=='en')
+      return $en[$cle];
+    else
+      return $fr[$cle];
+  }
+
   }
 
  ?>

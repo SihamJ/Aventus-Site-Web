@@ -51,7 +51,7 @@ if(isset($_POST['pseudo'])){
       <div class=" offset-lg-3 col-lg-6 bg-transparent border rounded px-5 my-5">
     <div class="row mb-5">
       <div class="offset-lg-2 col-lg-10">
-        <h2 class="h1-responsive font-weight-bold my-5   py-2">Inscription</h2>
+        <h2 class="h1-responsive font-weight-bold my-5   py-2"><?php echo translate('signinup');?></h2>
         <form id="inscription" name="inscription-form" action="./signup.php" method="POST">
           <div class="row">
             <div class="col-lg-9">
@@ -75,7 +75,7 @@ if(isset($_POST['pseudo'])){
             <div class="col-lg-9">
               <div class="md-form">
                 <input type="password" id="pass1" name="pass" class="form-control bg-transparent"/>
-                <label for="pass" >Mot de passe</label>
+                <label for="pass" ><?php echo translate('pass');?></label>
               </div>
             </div>
           </div>
@@ -83,17 +83,17 @@ if(isset($_POST['pseudo'])){
             <div class="col-lg-9">
               <div class="md-form">
                 <input type="password" id="pass2" class="form-control bg-transparent"/>
-                <label for="pass2" >Ressaisir votre Mot de passe</label>
+                <label for="pass2" ><?php echo translate('ressaisir');?></label>
               </div>
             </div>
           </div>
         </form>
         <div class="row">
         <div class="col-lg-4 text-center text-md-left">
-            <button class="btn btn-primary" id="send" onclick="verifsignup();">S'inscrire</button>
+            <button class="btn btn-primary" id="send" onclick="verifsignup();"><?php echo translate('signup');?></button>
         </div>
         <div class="col-lg-6 text-center text-md-left">
-            <p id="for-pass" style="color:red">Pseudo déjà utilisé</p>
+            <p id="for-pass" style="color:red"><?php echo translate('used');?></p>
         </div>
         </div>
       </div>
@@ -111,7 +111,7 @@ else{
   <div class=" offset-lg-3 col-lg-6 bg-transparent border rounded px-5 my-5">
 <div class="row mb-5">
   <div class="offset-lg-2 col-lg-10">
-    <h2 class="h1-responsive font-weight-bold my-5   py-2">Inscription</h2>
+    <h2 class="h1-responsive font-weight-bold my-5   py-2"><?php echo translate('signinup');?></h2>
     <form id="inscription" name="inscription-form" action="./signup.php" method="POST">
       <div class="row">
         <div class="col-lg-9">
@@ -135,7 +135,7 @@ else{
         <div class="col-lg-9">
           <div class="md-form">
             <input type="password" id="pass1" name="pass" class="form-control bg-transparent"/>
-            <label for="pass" >Mot de passe</label>
+            <label for="pass" ><?php echo translate('pass');?></label>
           </div>
         </div>
       </div>
@@ -143,14 +143,14 @@ else{
         <div class="col-lg-9">
           <div class="md-form">
             <input type="password" id="pass2" class="form-control bg-transparent"/>
-            <label for="pass2" >Ressaisir votre Mot de passe</label>
+            <label for="pass2" ><?php echo translate('ressaisir');?></label>
           </div>
         </div>
       </div>
     </form>
     <div class="row">
     <div class="col-lg-4 text-center text-md-left">
-        <button class="btn btn-primary" id="send" onclick="verifsignup();">S'inscrire</button>
+        <button class="btn btn-primary" id="send" onclick="verifsignup();"><?php echo translate('signup');?></button>
     </div>
     <div class="col-lg-6 text-center text-md-left">
         <p id="for-pass"></p>

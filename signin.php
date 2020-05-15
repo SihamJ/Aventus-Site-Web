@@ -39,7 +39,7 @@ if (!$resultat)
       <div class=" offset-lg-4 col-lg-4  border bg-transparent rounded px-5 "   >
     <div class="row mb-5" >
       <div class="col-lg-12">
-        <h2 class="h1-responsive font-weight-bold my-5 text-center  py-2">Espace Membre</h2>
+        <h2 class="h1-responsive font-weight-bold my-5 text-center  py-2"><?php echo translate('espace membre');?></h2>
         <form id="connexion" name="inscription-form" action="./signin.php" method="POST">
 
           <div class="row">
@@ -55,7 +55,7 @@ if (!$resultat)
             <div class="col-lg-12">
               <div class="md-form">
                 <input type="password" id="pass" name="pass" class="form-control bg-transparent"/>
-                <label for="pass">Mot de passe</label>
+                <label for="pass"><?php echo translate('pass');?></label>
               </div>
             </div>
           </div>
@@ -63,15 +63,15 @@ if (!$resultat)
             <div class="col-lg-12">
               <div class="md-form">
                 <input type="checkbox" id="auto" >
-                <label for="auto">Connexion Automatique</label>
+                <label for="auto"><?php echo translate('autoco');?></label>
               </div>
             </div>
           </div>
         </form>
         <div class="row">
         <div class="col-lg-6 text-center text-md-left">
-            <a class="btn btn-primary text-white" id="send" onclick="document.getElementById('connexion').submit()">Se Connecter</a>
-            <p style="color:red">Identifiant ou mot de passe incorrecte!</p>
+            <a class="btn btn-primary text-white" id="send" onclick="document.getElementById('connexion').submit()"><?php echo translate('signin');?></a>
+            <p style="color:red"><?php echo translate('incorrectid');?></p>
         </div>
         </div>
       </div>
@@ -95,7 +95,7 @@ else
         <div class=" offset-lg-4 col-lg-4  border bg-transparent rounded px-5 "   >
       <div class="row mb-5" >
         <div class="col-lg-12">
-          <h2 class="h1-responsive font-weight-bold my-5 text-center  py-2">Espace Membre</h2>
+          <h2 class="h1-responsive font-weight-bold my-5 text-center  py-2"><?php echo translate('espace membre');?></h2>
           <form id="connexion" name="inscription-form" action="./signin.php" method="POST">
 
             <div class="row">
@@ -111,7 +111,7 @@ else
               <div class="col-lg-12">
                 <div class="md-form">
                   <input type="password" id="pass" name="pass" class="form-control bg-transparent"/>
-                  <label for="pass">Mot de passe</label>
+                  <label for="pass"><?php echo translate('pass');?></label>
                 </div>
               </div>
             </div>
@@ -119,15 +119,15 @@ else
               <div class="col-lg-12">
                 <div class="md-form">
                   <input type="checkbox" id="auto" >
-                  <label for="auto">Connexion Automatique</label>
+                  <label for="auto"><?php echo translate('autoco');?></label>
                 </div>
               </div>
             </div>
           </form>
           <div class="row">
           <div class="col-lg-6 text-center text-md-left">
-              <a class="btn btn-primary text-white" id="send" onclick="document.getElementById('connexion').submit()">Se Connecter</a>
-              <p style="color:red">Identifiant ou mot de passe incorrecte!</p>
+              <a class="btn btn-primary text-white" id="send" onclick="document.getElementById('connexion').submit()"><?php echo translate('signin');?></a>
+              <p style="color:red"><?php echo translate('incorrectid');?></p>
           </div>
           </div>
         </div>
@@ -146,7 +146,7 @@ else{
     <div class=" offset-lg-4 col-lg-4  border bg-transparent rounded px-5 "   >
   <div class="row mb-5" >
     <div class="col-lg-12">
-      <h2 class="h1-responsive font-weight-bold my-5 text-center  py-2">Espace Membre</h2>
+      <h2 class="h1-responsive font-weight-bold my-5 text-center  py-2"><?php echo translate('espace membre');?></h2>
       <form id="connexion" name="inscription-form" action="./signin.php" method="POST">
 
         <div class="row">
@@ -162,7 +162,7 @@ else{
           <div class="col-lg-12">
             <div class="md-form">
               <input type="password" id="pass" name="pass" class="form-control bg-transparent"/>
-              <label for="pass">Mot de passe</label>
+              <label for="pass"><?php echo translate('pass');?></label>
             </div>
           </div>
         </div>
@@ -170,14 +170,14 @@ else{
           <div class="col-lg-12">
             <div class="md-form">
               <input type="checkbox" id="auto" >
-              <label for="auto">Connexion Automatique</label>
+              <label for="auto"><?php echo translate('autoco');?></label>
             </div>
           </div>
         </div>
       </form>
       <div class="row">
       <div class="col-lg-6 text-center text-md-left">
-          <a class="btn btn-primary text-white" id="send" onclick="document.getElementById('connexion').submit()">Se Connecter</a>
+          <a class="btn btn-primary text-white" id="send" onclick="document.getElementById('connexion').submit()"><?php echo translate('signin');?></a>
       </div>
       </div>
     </div>

@@ -1,12 +1,13 @@
 <?php
 session_start();
+$langue=$_SESSION['langue'];
 
-// Suppression des variables de session et de la session
 $_SESSION = array();
 session_destroy();
 
-// Suppression des cookies de connexion automatique
 setcookie('login', '');
 setcookie('pass_hache', '');
+session_start();
+$_SESSION['langue']=$langue;
 header('Location: ../index.php')
 ?>

@@ -21,13 +21,13 @@ include './templates/traduction.php';
   ?>
 
 <div class="container">
-<h1 class="h1-responsive pt-5" style="font-family:futura">Liste des Forums</h1>
-<h3 class="h1-responsive">Page en maintenance</h3>
+<h1 class="h1-responsive pt-5" style="font-family:futura">Forums</h1>
+<h3 class="h1-responsive"><?php echo translate('maintenance');?></h3>
 <div class="row py-5" style="height:450px">
   <div class="col-md-4">
     <div class="card mb-4 shadow-sm" style="height:200px">
         <div class="card-body">
-        <h3 class="card-text">Evènements</h3></br>
+        <h3 class="card-text"><?php echo translate('events');?></h3></br>
         <p>Des questions sur le programme, le déroulement des évènements?</p>
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">
@@ -42,11 +42,11 @@ include './templates/traduction.php';
     <div class="card mb-4 shadow-sm">
 
       <div class="card-body">
-        <h3 class="card-text">Partage d'expériences</h3></br>
-        <p>Espace de partage avec les membres de l'Aventus.</p>
+        <h3 class="card-text"><?php echo translate('partage');?></h3></br>
+        <p><?php echo translate('espace');?></p>
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">
-            <a type="button" class="btn btn-sm btn-outline-secondary" href=''>Vers le forum</a>
+            <a type="button" class="btn btn-sm btn-outline-secondary" href=''><?php echo translate('toforum');?></a>
           </div>
 
         </div>
@@ -57,8 +57,8 @@ include './templates/traduction.php';
     <div class="card mb-4 shadow-sm">
 
       <div class="card-body">
-        <h3 class="card-text">Problèmes techniques</h3></br>
-        <p>Veuillez déposer votre demande ici pour tout problème technique sur le site.</p>
+        <h3 class="card-text"><?php echo translate('issues');?></h3></br>
+        <p><?php echo translate('issuestext');?></p>
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">
             <a type="button" class="btn btn-sm btn-outline-secondary" href=''>Vers le forum</a>
