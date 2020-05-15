@@ -4,16 +4,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/Prog Web/index.php"><?php echo translate('accueil');?></a>
+          <a class="nav-link" href="/programmation-web-2---s4---2020/index.php"><?php echo translate('accueil');?></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/Prog Web/index.php/#programme"><?php echo translate('events');?><span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/programmation-web-2---s4---2020/index.php#programme"><?php echo translate('events');?><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/Prog Web/forum.php"> Forum</a>
+          <a class="nav-link" href="/programmation-web-2---s4---2020/forum.php"> Forum</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/Prog Web/contact.php">Contact</a>
+          <a class="nav-link" href="/programmation-web-2---s4---2020/contact.php">Contact</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -25,7 +25,7 @@
 </div>
 <div class="col-sm-12 footer-banner">
   <div class="row  ">
-    <div class="offset-sm-2 col-sm-5"><p>Copyright ©2020  <img src="/Prog Web/assets/logo.png" style="width:25%" alt="logo"/></p></div>
+    <div class="offset-sm-2 col-sm-5"><p>Copyright ©2020  <img src="/programmation-web-2---s4---2020/assets/logo.png" style="width:25%" alt="logo"/></p></div>
   </div>
 </div>
 </footer>

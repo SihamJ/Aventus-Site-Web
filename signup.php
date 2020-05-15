@@ -1,27 +1,28 @@
 <?php
 session_start();
+include './templates/traduction.php';
  ?>
 <!DOCTYPE html>
 <html>
 <head>
-<link href="/Prog Web/css/footer.css" rel="stylesheet"/>
-<link href="/Prog Web/css/header.css" rel="stylesheet"/>
-<link href="/Prog Web/bootstrap/bootstrap.css" rel="stylesheet"/>
+<link href="./css/footer.css" rel="stylesheet"/>
+<link href="./css/header.css" rel="stylesheet"/>
+<link href="./bootstrap/bootstrap.css" rel="stylesheet"/>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/Prog Web/js/signup.js"></script>
+<script type="text/javascript" src="./js/signup.js"></script>
 </head>
 <meta charset="UTF-8" />
 <title>Sign Up</title>
 </head>
 
-<body style="background-image:url('/Prog Web/assets/bg1.jpg');background-size:cover;">
+<body style="background-image:url('./assets/bg1.jpg');background-size:cover;">
 
 
 
 <?php
-	include '/Applications/MAMP/htdocs/Prog Web/templates/header.php';
+	include './templates/header.php';
 ?>
 
 <?php
@@ -41,7 +42,7 @@ if(isset($_POST['pseudo'])){
   session_start();
   $_SESSION['id'] = $resultat['id'];
   $_SESSION['pseudo'] = $_POST['pseudo'];
-  header('Location: /Prog Web/membre/tableaudebord.php');
+  header('Location: ./membre/tableaudebord.php');
   }
   else{
     ?>
@@ -51,7 +52,7 @@ if(isset($_POST['pseudo'])){
     <div class="row mb-5">
       <div class="offset-lg-2 col-lg-10">
         <h2 class="h1-responsive font-weight-bold my-5   py-2">Inscription</h2>
-        <form id="inscription" name="inscription-form" action="/Prog Web/signup.php" method="POST">
+        <form id="inscription" name="inscription-form" action="./signup.php" method="POST">
           <div class="row">
             <div class="col-lg-9">
               <div class="md-form">
@@ -111,7 +112,7 @@ else{
 <div class="row mb-5">
   <div class="offset-lg-2 col-lg-10">
     <h2 class="h1-responsive font-weight-bold my-5   py-2">Inscription</h2>
-    <form id="inscription" name="inscription-form" action="/Prog Web/signup.php" method="POST">
+    <form id="inscription" name="inscription-form" action="./signup.php" method="POST">
       <div class="row">
         <div class="col-lg-9">
           <div class="md-form">
@@ -164,7 +165,7 @@ else{
  ?>
 
 <?php
-	include '/Applications/MAMP/htdocs/Prog Web/templates/footer.php';
+	include './templates/footer.php';
 ?>
 
 </body>

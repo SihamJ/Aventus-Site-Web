@@ -1,5 +1,6 @@
 <?php
 session_start();
+include '../templates/traduction.php';
 	if(isset($_POST['pseudo']))
  		setcookie('pseudo', $_POST['pseudo'], time() + 365*24*3600, null, null, false, true);
 
@@ -7,9 +8,9 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-<link href="/Prog Web/bootstrap/bootstrap.css" rel="stylesheet"/>
-<link href="/Prog Web/css/footer.css" rel="stylesheet"/>
-<link href="/Prog Web/css/header.css" rel="stylesheet"/>
+<link href="../bootstrap/bootstrap.css" rel="stylesheet"/>
+<link href="../css/footer.css" rel="stylesheet"/>
+<link href="../css/header.css" rel="stylesheet"/>
 <meta charset="UTF-8" />
 <title>Discussion</title>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -19,12 +20,12 @@ session_start();
 
 <body class="bg-light">
 <?php
-	include '/Applications/MAMP/htdocs/Prog Web/templates/header.php';
+	include '../templates/header.php';
 ?>
 
 <div class="row py-5 ">
 	<div class="offset-md-2 col-md-8">
-		<form id="chatform" name="chatform" method="POST" action="/Prog Web/membre/traitement-chat.php">
+		<form id="chatform" name="chatform" method="POST" action="./traitement-chat.php">
 			<div class="row">
 
 				<div class="col-md-10">
@@ -59,8 +60,8 @@ session_start();
 
 
 <?php
-	include '/Applications/MAMP/htdocs/Prog Web/templates/footer.php';
+	include '../templates/footer.php';
 ?>
-<script src="js/contact.js"></script>
+<script src="../js/contact.js"></script>
 </body>
 </html>

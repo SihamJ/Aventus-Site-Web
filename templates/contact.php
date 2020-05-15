@@ -1,4 +1,4 @@
-<script type="text/javascript" src="/Prog Web/js/contact.js"></script>
+<script type="text/javascript" src="/programmation-web-2---s4---2020/js/contact.js"></script>
 <div class="container">
 
 <section class="mb-4" >
@@ -10,7 +10,7 @@
  <div class="row">
 
      <div class="col-md-9 mb-md-0 mb-5">
-         <form id="contactform" name="contact-form" action="/Prog Web/templates/formulaire.php" method="POST">
+         <form id="contactform" name="contact-form" action="/programmation-web-2---s4---2020/templates/formulaire.php" method="POST">
            <div class="row">
                  <div class="col-md-6">
                      <div class="md-form mb-0">
@@ -48,7 +48,7 @@
          </form>
 
          <div class="text-center text-md-left">
-             <button id="send" onclick="verifEmail();" class="btn btn-primary"><?php echo translate('envoyer');?></button>
+             <button id="send" onclick="envoyer();" class="btn btn-primary"><?php echo translate('envoyer');?></button>
              <label for="send" id="labelButton"></label>
          </div>
 

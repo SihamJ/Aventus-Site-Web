@@ -9,5 +9,5 @@ if(isset($_POST['message']))
   if(strlen($_POST['message'])>0)
     $envoyer->execute(array(htmlspecialchars($_SESSION['pseudo']),htmlspecialchars($_POST['message'])));
 
-header('Location: /Prog Web/membre/form.php');
+header('Location: ./form.php');
 ?>

@@ -14,10 +14,10 @@ session_start();
   session_start();
   $_SESSION['id'] = $resultat['id'];
   $_SESSION['pseudo'] = $_POST['pseudo'];
-  header('Location: /Prog Web/membre/tableaudebord.php');
+  header('Location: ./tableaudebord.php');
   }
   else{
-    header('Location: /Prog Web/membre/signup.php');
+    header('Location: ../signup.php');
 
   }
 ?>

@@ -1,9 +1,3 @@
-<script>
-function openwindow(src){
-   window.open(src);
-}
-</script>
-
 <div class="album pb-5 " id="programme" >
     <div class="container">
 
@@ -15,7 +9,7 @@ function openwindow(src){
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <image width="100%" height="225" xlink:href="/Prog Web/assets/event1.jpg" />
+              <image width="100%" height="225" xlink:href="/programmation-web-2---s4---2020/assets/event1.jpg" />
             </svg>
             <div class="card-body">
               <p class="card-text"><?php echo 'text'; ?></p>
@@ -32,7 +26,7 @@ function openwindow(src){
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <image width="100%" height="225" xlink:href="/Prog Web/assets/event2.jpg" />
+              <image width="100%" height="225" xlink:href="/programmation-web-2---s4---2020/assets/event2.jpg" />
             </svg>
           <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -48,7 +42,7 @@ function openwindow(src){
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <image width="100%" height="225" xlink:href="/Prog Web/assets/event3.jpg" />
+              <image width="100%" height="225" xlink:href="/programmation-web-2---s4---2020/assets/event3.jpg" />
           </svg>
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -64,7 +58,7 @@ function openwindow(src){
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <image width="100%" height="225" xlink:href="/Prog Web/assets/event4.jpg" />
+              <image width="100%" height="225" xlink:href="/programmation-web-2---s4---2020/assets/event4.jpg" />
           </svg>
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -81,7 +75,7 @@ function openwindow(src){
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <image width="100%" height="225" xlink:href="/Prog Web/assets/event5.jpg"/>
+              <image width="100%" height="225" xlink:href="/programmation-web-2---s4---2020/assets/event5.jpg"/>
           </svg>
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -97,7 +91,7 @@ function openwindow(src){
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <image width="100%" height="225" xlink:href="/Prog Web/assets/event6.jpg" />
+              <image width="100%" height="225" xlink:href="/programmation-web-2---s4---2020/assets/event6.jpg" />
           </svg>
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -113,7 +107,7 @@ function openwindow(src){
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <image width="100%" height="225" xlink:href="/Prog Web/assets/event7.jpg" />
+              <image width="100%" height="225" xlink:href="/programmation-web-2---s4---2020/assets/event7.jpg" />
           </svg>
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -128,4 +122,6 @@ function openwindow(src){
         </div>
     </div>
   </div>
+</div>
+
 </div>
